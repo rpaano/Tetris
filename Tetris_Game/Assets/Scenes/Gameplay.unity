@@ -188,6 +188,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3555058}
   m_CullTransparentMesh: 0
+--- !u!1 &7685146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7685148}
+  - component: {fileID: 7685147}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &7685147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7685146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7be31af64e783d40910777b43bea947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tetrisObjects:
+  - {fileID: 3746994051855685387, guid: 74ac806de5b2fb841aa21d3fec769a07, type: 3}
+  - {fileID: 3746994051855685387, guid: 70e9c009d956ca747936a691f73ffda9, type: 3}
+  - {fileID: 3746994051855685387, guid: 22b57edeefd847446b6b9c9f64646e07, type: 3}
+  - {fileID: 7340637964545742701, guid: ef5933beb3df9db4095504d1e701b758, type: 3}
+  - {fileID: 1773716787313346460, guid: 9d9d91d47387e7743acfd5d4a28db084, type: 3}
+  - {fileID: 1773716787313346460, guid: 2bbdb09e149e09544afa0df92620f0a6, type: 3}
+  - {fileID: 1773716787313346460, guid: 2691cfb1597d78343a5c76078247d8db, type: 3}
+--- !u!4 &7685148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7685146}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: 14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &157779120
 GameObject:
   m_ObjectHideFlags: 0
