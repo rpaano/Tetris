@@ -17,7 +17,7 @@ public class Spawner : MonoBehaviour
     public void SpawnRandom()
     {
         int index = Random.Range(0, tetrisObjects.Length);
-        Instantiate(tetrisObjects[index],transform.position, Quaternion.identity);
+        Instantiate(tetrisObjects[index], transform.position, Quaternion.identity);
     }
 
 }

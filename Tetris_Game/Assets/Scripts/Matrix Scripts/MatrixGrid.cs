@@ -16,7 +16,7 @@ public class MatrixGrid
 
     public static bool IsInsideBorder(Vector2 pos)
     {
-        return ((int)pos.x >= 0 && (int)pos.y < row && (int)pos.y >= 0);
+        return ((int)pos.x >= 0 && (int)pos.x < row && (int)pos.y >= 0);
     }
 
     public static void DeleteRow(int y)
@@ -32,11 +32,10 @@ public class MatrixGrid
     {
         for (int x = 0; x < row; ++x)
         {
-            if(grid[x,y] != null)
+            if(grid[x, y] != null)
             {
                 grid[x, y - 1] = grid[x, y];
                 grid[x, y] = null;
-
                 grid[x, y - 1].position += new Vector3(0, -1, 0);
             }
         }
